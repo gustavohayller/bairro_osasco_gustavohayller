@@ -1,0 +1,180 @@
+@font-face {
+    font-family: "Inter";
+    src: url(../fontes/Inter/Inter-VariableFont_slnt\,wght.ttf)
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url(../fontes/Ubuntu/Ubuntu-Medium.ttf)
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin: 0 auto;
+    min-width: 100% 3000px;
+    background: #379D1D;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 95px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li {
+    height: 100%;
+    width: 200px;
+}
+
+nav ul li a {
+    color: rgb(185, 255, 185);
+    text-decoration: none;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+}
+
+nav ul li a:hover{
+    color: white;
+    font-weight: bold;
+}
+
+  
+main #cachorro h1 {
+    font-size: 2vw;
+    display: inline-block;
+    color: rgb(0, 43, 0);
+    margin-left: 20px;
+    display: inline-block;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+  }
+
+  main #cachorro p {
+    color: #379D1D;
+    width: 50%;
+    text-align: justify;
+    font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    border-radius: 10px;
+    border:rgb(185, 255, 185) solid;
+  }
+
+  main #cachorro img {
+    font-size: 2vw;
+    margin-top: 20px;
+    position: absolute;
+    display: inline;
+    margin-left: 700px;
+    display: inline-block;
+    color: rgb(0, 43, 0);
+    width: 40vw;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    border: solid 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  main #explicacao_centro {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(185, 255, 185);
+    box-shadow: 10px 10px 1px black;
+    width: 1000px;
+    padding: 10px;
+    margin-left: 100px;
+  }
+
+  main #explicacao_centro h1 {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    color: rgb(0, 43, 0);
+  }
+
+  main #explicacao_centro p {
+    font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+    color: #379D1D;;
+    }
+
+
+  main #historia2 p {
+    color: #379D1D;
+    width: 50%;
+    text-align: justify;
+    font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding-top: 120px;
+    border: solid rgb(185, 255, 185);
+    padding-bottom: 120px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  main #historia2 img {
+    font-size: 2vw;
+    position: absolute;
+    display: inline;
+    margin-left: 700px;
+    display: inline-block;
+    color: rgb(0, 43, 0);
+    width: 40vw;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    border: solid 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  footer {
+    margin: 0 auto;
+    min-width: 100% 3000px;
+    background: #379D1D;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+    margin-top: 50px;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.final {
+    margin-right: 200px;
+}
+
+footer ul li {
+    height: 100%;
+}
+
+footer ul li a {
+    color: rgb(185, 255, 185);
+    text-decoration: none;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+}
+
+footer ul li a:hover{
+    color: white;
+    font-weight: bold;
+}
